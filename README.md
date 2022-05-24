@@ -11,8 +11,8 @@ This setup creates the following resources:
 - provisioned AWS EKS Cluster using Terrafrom AWS EKS module
 - Stored terraform state file in S3 bucket
 
-![example](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2018/01/26/Slide5.png "Infrastructure illustration")
-(Source: https://aws.amazon.com/de/blogs/compute/task-networking-in-aws-fargate/)
+![EKS cluster] (https://github.com/veerasan/container-demo/blob/main/awseks-demo.png?raw=true "Infrastructure illustration")
+
 
 Please find the below steps to run terraform :
 - execute `terraform init --backend-config=backend.conf`, it will initialize your local terraform and connect it to the state store, and it will download all the necessary providers
@@ -31,7 +31,11 @@ Run the following command to retrieve the access credentials for your cluster an
 - Deployed stateless app in AWS EKS cluster using `kubectl apply -f ./ -R`
 - Please find the artifact of stateless app
 
+![stateless-app] (https://github.com/veerasan/container-demo/blob/main/artifact/stateless-app-output.png "Stateless app output")
+
 ## Stateful app
 - Created manifest file for wordpress application
 - Deployed WordPress and MySQL with Persistent Volumes in `Minikube` using `kubectl apply -f ./ -R`
 - Please find the artifact of stateful app
+
+![stateless-app] (https://github.com/veerasan/container-demo/blob/main/artifact/stateful-app-output.png "Stateful app output")
