@@ -1,6 +1,6 @@
 # Terraform AWS EKS Cluster
 
-This terraform setup can be used to setup the AWS infrastructure
+#This terraform setup can be used to setup the AWS infrastructure
 for a dockerized application running on AWS EKS Cluster
 
 ## Resources
