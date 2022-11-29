@@ -5,7 +5,7 @@ for a dockerized application running on AWS EKS Cluster
 
 ## Resources
 
-This setup creates the following resources:
+#This setup creates the following resources:
 
 - A new VPC with multi-zone public & private Subnets, and a single NAT gateway by using Terrafrom AWS VPC module.
 - provisioned AWS EKS Cluster using Terrafrom AWS EKS module
